@@ -1,7 +1,7 @@
 {
-  "name": "PittWu'Blog",
+  "name": "pittwu-blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "Pitt",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
     "build": "vuepress build ."

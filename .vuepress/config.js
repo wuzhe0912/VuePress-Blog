@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "PittWu'Blog",
+  "title": "Pitt Wu's Blog",
   "description": "",
   "dest": "public",
   "head": [
@@ -27,11 +27,6 @@ module.exports = {
         "icon": "reco-home"
       },
       {
-        "text": "TimeLine",
-        "link": "/timeline/",
-        "icon": "reco-date"
-      },
-      {
         "text": "Docs",
         "icon": "reco-message",
         "items": [
@@ -42,12 +37,17 @@ module.exports = {
         ]
       },
       {
+        "text": "TimeLine",
+        "link": "/timeline/",
+        "icon": "reco-date"
+      },
+      {
         "text": "Contact",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/wuzhe0912",
             "icon": "reco-github"
           }
         ]
@@ -79,20 +79,19 @@ module.exports = {
         "email": "1156743527@qq.com",
         "link": "https://www.recoluan.com"
       },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
+      // {
+      //   "title": "vuepress-theme-reco",
+      //   "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+      //   "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      //   "link": "https://vuepress-theme-reco.recoluan.com"
+      // }
     ],
     "logo": "/logo.png",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "PittWu",
-    "authorAvatar": "/avatar.png",
-    "record": "xxxx",
+    "author": "Pitt Wu",
+    "authorAvatar": "/avatar.jpg",
     "startYear": "2017"
   },
   "markdown": {

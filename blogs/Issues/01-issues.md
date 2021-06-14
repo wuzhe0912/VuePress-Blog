@@ -1,5 +1,5 @@
 ---
-title: 01 - Issues Solution：陣列過濾後重組
+title: Issues Solution(01)：陣列過濾後重組
 date: 2019-06-05
 categories: 
  - Issues

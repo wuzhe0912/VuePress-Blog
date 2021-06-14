@@ -1,5 +1,5 @@
 ---
-title: 01 - Vue.js(2.x)：Vue Router
+title: Vue.js 2.x(01)：Vue Router
 date: 2021-03-01
 categories: 
  - JavaScript

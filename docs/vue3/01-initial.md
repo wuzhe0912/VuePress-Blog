@@ -1,5 +1,5 @@
 ---
-title: 01 - Vue.js(3.x)：Initial
+title: Vue.js 3.x(01)：Initial
 date: 2021-03-11
 categories: 
  - JavaScript

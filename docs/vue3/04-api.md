@@ -1,5 +1,5 @@
 ---
-title: 04 - Vue.js(3.x)：實作串接 API
+title: Vue.js 3.x(04)：實作串接 API
 date: 2021-03-14
 categories: 
  - JavaScript
@@ -10,7 +10,7 @@ tags:
 <!--more-->
 ## Install axios
 首先要安裝`axios`這個常用的`plugin`，方便我們用於串接`API`。
-```
+``` sh
 yarn add axios
 ```
 至於`api`的部分，我們這邊使用免費的[Dog API](https://dog.ceo/dog-api/)。
@@ -34,7 +34,8 @@ export default {
 
 ## 呼叫資料
 接著我們準備一個`call api`用的`function`，我們同樣建立在`src/hooks`底下：
-``` JavaScript src/hooks/useURLLoader.js
+``` JavaScript
+// src/hooks/useURLLoader.js
 import { reactive, toRefs } from 'vue';
 import axios from 'axios';
 
@@ -102,7 +103,8 @@ export default {
 
 ## 前後切換
 再來，雖然我拿到一組圖片列表，但我不希望他們一次全部顯示出來，而是用上一張下一張的方式，依序切換圖片，那麼我該怎麼做呢？
-``` HTML Template
+``` js
+// template
 .dog-container
   .list-loading(v-if="loading") Loading...
   .list-wrap(v-else)
@@ -116,7 +118,8 @@ export default {
     button.btn-prev(@click="imagePrev") Prev
     button.btn-next(@click="imageNext") Next
 ```
-``` JavaScript script
+``` js
+// script
 const state = reactive({
   loading: true,
   data: [],
@@ -136,7 +139,7 @@ return {
   imageNext,
 };
 ```
-``` CSS
+``` css
 <style lang="scss" scoped>
 .list-wrap {
   display: flex;
@@ -167,7 +170,7 @@ return {
 
 ## 循環切換
 但是這個頁面切換機制，存在明顯的漏洞，當我切換到最後一頁和第一頁時，繼續往下走，必然會無法顯示圖片，因為增減的`imageIndex`已經超出列表本身，所以我們需要調整一下`function`，讓它可以無限循環：
-``` JavaScript
+``` js
 const imagePrev = () => {
   state.imageIndex--;
   if (state.imageIndex < 0) {

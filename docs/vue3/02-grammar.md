@@ -1,5 +1,5 @@
 ---
-title: 02 - Vue.js(3.x)：Grammmar
+title: Vue.js 3.x(02)：Grammmar
 date: 2021-03-12
 categories: 
  - JavaScript

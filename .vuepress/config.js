@@ -69,7 +69,8 @@ module.exports = {
         "01-initial",
         "02-grammar",
         "03-todos",
-        "04-api"
+        "04-api",
+        "05-mouse-position"
       ],
       "/docs/php/": [
         "01-grammar",

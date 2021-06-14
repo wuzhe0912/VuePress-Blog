@@ -9,7 +9,7 @@ tags:
 安裝 Hexo 在全域環境，並使用 Next Theme，此處使用的裝置以 Windows 環境為主。
 <!--more-->
 ## install(全域安裝 Hexo)
-``` JavaScript
+``` sh
 npm install hexo-cli -g
 
 # or
@@ -18,16 +18,16 @@ yarn global add hexo-cli
 ```
 
 ## init project & install next theme
-```
+``` sh
 hexo init project-name
-<!-- 或是切到對應資料夾再進行 hexo init -->
 
+# 或是切到對應資料夾再進行 hexo init
 cd project-name
 
 yarn add hexo-theme-next
 ```
 切到根目錄的 _config.yml 進行調整
-```
+``` yml
 theme: next
 ```
 最後將 Next 預設的設定檔進行複製到根目錄，方便進行參數調整

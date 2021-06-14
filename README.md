@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 凡是過往，皆為序章
+tagline: The best time to plant a tree was 20 years ago. The second best time is now.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

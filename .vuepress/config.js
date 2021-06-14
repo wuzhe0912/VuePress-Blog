@@ -27,19 +27,27 @@ module.exports = {
         "icon": "reco-home"
       },
       {
+        "text": "TimeLine",
+        "link": "/timeline/",
+        "icon": "reco-date"
+      },
+      {
         "text": "Docs",
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
+            "text": "Vue.js 2.x",
+            "link": "/docs/vue2/01-router"
+          },
+          {
+            "text": "Vue.js 3.x",
+            "link": "/docs/vue3/01-initial"
+          },
+          {
+            "text": "PHP",
+            "link": "/docs/php/01-grammar"
           }
         ]
-      },
-      {
-        "text": "TimeLine",
-        "link": "/timeline/",
-        "icon": "reco-date"
       },
       {
         "text": "Contact",
@@ -54,11 +62,19 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
+      "/docs/vue2/": [
+        "01-router"
+      ],
+      "/docs/vue3/": [
+        "01-initial",
+        "02-grammar",
+        "03-todos",
+        "04-api"
+      ],
+      "/docs/php/": [
+        "01-grammar",
+        "02-array",
+        "03-function"
       ]
     },
     "type": "blog",

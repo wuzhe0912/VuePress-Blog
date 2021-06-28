@@ -4,7 +4,7 @@ date: 2021-03-01
 categories: 
  - JavaScript
 tags:
- - Vue 2.x
+ - Vue.js 2.x
 ---
 ## Basic Setting(基本設定)
 

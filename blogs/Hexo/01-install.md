@@ -1,5 +1,5 @@
 ---
-title: 01 - Hexo：Basic Install
+title: Hexo(01)：Basic Install
 date: 2017-12-01 19:10:33
 categories:
  - Static Site Generators

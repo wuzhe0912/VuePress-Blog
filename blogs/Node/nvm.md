@@ -9,20 +9,16 @@ tags:
 NVM 用於管理不同情境下，切換不同 Node 版本，這邊記錄常用 NVM 指令與不同環境下的安裝方式。
 <!--more-->
 ## install
-
 ### Mac
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
-
 ### Winodws
 [下載 nvm-setup.zip 進行解壓縮安裝](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7)
-
 ### check version
 ```
 nvm --version
 ```
-
 ## command
 ```
 nvm ls-remote # 查看遠端 Node 版本列表(Windows 環境不可用)
@@ -35,7 +31,6 @@ nvm use 12.22.1 # 切換到使用的 Node 版本
 
 nvm alias default 12.22.1 # 設定預設使用的 Node 版本
 ```
-
 ## Error Fixed(Mac)
 > 此前進行硬體設備調整時，造成環境跑掉，記錄自己遇到的概況與解法。
 

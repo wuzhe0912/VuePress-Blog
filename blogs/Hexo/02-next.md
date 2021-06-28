@@ -1,5 +1,5 @@
 ---
-title: 02 - Hexo：Next Theme
+title: Hexo(02)：Next Theme
 date: 2017-12-02 22:10:33
 categories:
  - Static Site Generators

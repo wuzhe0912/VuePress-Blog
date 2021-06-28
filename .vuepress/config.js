@@ -36,6 +36,10 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
+            "text": "ES6",
+            "link": "/docs/es6/01-arrow-function"
+          },
+          {
             "text": "Vue.js 2.x",
             "link": "/docs/vue2/01-router"
           },
@@ -62,6 +66,10 @@ module.exports = {
       }
     ],
     "sidebar": {
+      "/docs/es6/": [
+        "01-arrow-function",
+        "02-destructuring"
+      ],
       "/docs/vue2/": [
         "01-router"
       ],

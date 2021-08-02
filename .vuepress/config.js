@@ -50,6 +50,10 @@ module.exports = {
           {
             "text": "PHP",
             "link": "/docs/php/01-grammar"
+          },
+          {
+            "text": "Personal",
+            "link": "/docs/personal/01-learning-coding"
           }
         ]
       },
@@ -84,6 +88,9 @@ module.exports = {
         "01-grammar",
         "02-array",
         "03-function"
+      ],
+      "/docs/personal/": [
+        "01-learning-coding",
       ]
     },
     "type": "blog",

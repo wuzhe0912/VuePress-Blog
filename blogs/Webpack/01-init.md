@@ -2,7 +2,7 @@
 title: Webpack(01)：Init Project
 date: 2020-07-03 12:12:05
 categories: 
- - Module bundlers
+ - Module Bundlers
 tags:
  - Webpack
 ---

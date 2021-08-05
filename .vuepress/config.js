@@ -91,6 +91,7 @@ module.exports = {
       ],
       "/docs/personal/": [
         "01-learning-coding",
+        "02-github-project"
       ]
     },
     "type": "blog",
